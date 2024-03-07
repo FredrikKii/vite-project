@@ -1,0 +1,33 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #2B4B83;
+  height: 100px;
+  width: 100vw;
+} 
+
+.Böcker {
+	background-color: orange;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 10px;
+}
+.böcker {
+	border: 1px solid black;
+	padding: 1em;
+	border-radius: 20px;
+	background: gray;
+	WIDTH: 1200px;
+	display: grid;
+	grid-template-columns: repeat(4, 2fr);
+	gap: 20px;
+}
+main {
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+}
+
+button {
+	margin: 10px;
+}
